@@ -1,0 +1,20 @@
+{
+    "name": "mario-naether/magni",
+    "authors": [
+        {
+            "name": "Mario Näther",
+            "email": "mario-naether@gmx.de"
+        }
+    ],
+
+    "require": {
+        "symfony/console": "^2|~3"
+    },
+    "bin":["bin/magni"],
+
+    "autoload" : {
+        "psr-4" : {
+            "Magni\\" : "src/Magni"
+        }
+    }
+}
